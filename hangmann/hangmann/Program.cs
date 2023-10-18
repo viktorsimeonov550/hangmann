@@ -597,8 +597,10 @@ namespace hangman
                     {
                         for (int i = 0; i < deathAnimation.Length; i++)
                         {
+                            Console.WriteLine(deathAnimation[i]);
                             Thread.Sleep(200);
                             Console.SetCursorPosition(0, 0);
+
                         }
                     }
 
