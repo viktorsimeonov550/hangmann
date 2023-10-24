@@ -398,7 +398,7 @@ namespace hangman
                 int incorrectGuessCount = 0;
 
                 DrawCurrentGameState(false, incorrectGuessCount, wordToGuess, playerUsedLetters);
-                Console.ReadLine();
+               
 
                 PlayGame(word, wordToGuess, incorrectGuessCount, playerUsedLetters);
 
